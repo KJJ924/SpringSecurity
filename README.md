@@ -8,6 +8,7 @@ SpringSecurity 공부하기 위한 리포
 
 
 1. [시큐리티 동작원리(인증,인가)](https://github.com/KJJ924/SpringSecurity/blob/master/src/main/markdown/시큐리티%20동작%20원리%20(인증%2C%20인가).md)
+2. [JWT 토큰이 뭐죠?](https://github.com/KJJ924/SpringSecurity/blob/master/src/main/markdown/JWT%ED%86%A0%ED%81%B0.md)
 
 
 
