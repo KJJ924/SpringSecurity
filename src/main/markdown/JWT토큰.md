@@ -23,9 +23,9 @@
 
 ### **JWT 의 구조**
 
-**JWT 구조**([이미지 출처](https://velopert.com/2389)) 
+ 
 ![jwt](https://tva1.sinaimg.cn/large/008i3skNgy1gq8vwub41yj30jg06yt8r.jpg)
-
+[이미지 출처](https://velopert.com/2389)
 - **Header**
 
   - 토큰의 유형 , 사용중인 서명 알고리즘  두 부분으로 구성된다.
