@@ -50,6 +50,7 @@ public class JwtAuthenticationFilter implements Filter {
             HttpServletResponse httpServletResponse = (HttpServletResponse) response;
             Cookie cookie = new Cookie("AUTH_TOKEN", null);
             cookie.setMaxAge(0);
+            cookie.setHttpOnly(true);
             httpServletResponse.addCookie(cookie);
             request.setAttribute("exception",ErrorCode.INVALID);
             chain.doFilter(request, response);

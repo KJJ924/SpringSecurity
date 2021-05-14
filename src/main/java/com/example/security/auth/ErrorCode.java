@@ -1,7 +1,7 @@
 package com.example.security.auth;
 
 public enum ErrorCode {
-    EXPIRED(403, "Invalid access token"), INVALID(403, "expired token");
+    EXPIRED(401, "Invalid access token"), INVALID(401, "expired token");
 
     private final int code;
     private final String message;
