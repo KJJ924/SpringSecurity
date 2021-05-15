@@ -23,7 +23,7 @@ public ResponseEntity<Object> hi(@AuthenticationPrincipal AuthUser user) {
 }
 ```
 
-해당 컨트롤러를 테스트하기위해서는 AuthUser가 SercurityContextHolder 에 담겨 있어야 하는데요.
+해당 컨트롤러를 테스트하기위해서는 AuthUser 가 SecurityContextHolder 에 담겨 있어야 하는데요.
 
 
 
@@ -78,7 +78,7 @@ void exam() throws Exception {
 }
 ```
 
-그럼  @WithAuthUser를 만들기위해서 어떻게 해야하는지 하나씩 알아보죠.
+그럼  @WithAuthUser 를 만들기위해서 어떻게 해야하는지 하나씩 알아보죠.
 
 
 
@@ -135,7 +135,7 @@ public class WithAuthUserSecurityContextFactory implements WithSecurityContextFa
 
 각각의 서비스에서 사용하고 있는 인증객체를 만들어서 (저는 AuthUser 라는 타입을 사용하고 있습니다.)  
 
-SecurityContext에 셋팅해주면 끝납니다. 
+SecurityContext 에 셋팅해주면 끝납니다. 
 
 
 
